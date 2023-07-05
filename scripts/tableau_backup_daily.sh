@@ -159,7 +159,7 @@ echo "************************************************" >> $audit_log_file
 echo $(date) >> $audit_log_file
 echo "Creating ziplog files..." >> $audit_log_file
 
-tsm maintenance ziplogs --with-postgresql-data --file $ziplogs_name --description "Logs from Daily Backup" --with-msinfo --with-latest-dump --with-netstat-info
+tsm maintenance ziplogs --with-postgresql-data --file $ziplogs_name --description "Logs from Daily Backup" --with-latest-dump --with-netstat-info
 
 echo "" >> $audit_log_file
 
